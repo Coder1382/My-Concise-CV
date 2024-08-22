@@ -101,6 +101,9 @@ input[type=submit]:hover{
     width: 2vw;
   }
   input[type=submit]{
-    width: 10vw;
+    width: 15vw;
+  }
+  input:[type=submit]{
+    width: 50vw;
   }
 }
