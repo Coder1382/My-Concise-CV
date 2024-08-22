@@ -100,4 +100,7 @@ input[type=submit]:hover{
     height: 3vh;
     width: 2vw;
   }
+  input[type=submit]{
+    width: 10vw;
+  }
 }
