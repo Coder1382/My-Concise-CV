@@ -59,10 +59,6 @@ form{
 }
 input{
   height: 5vh;
-}
-input:not(input[type=submit]),textarea{
-  width: 25vw;
-  padding: 0 1vw;
   text-align: center;
 }
 .fm:not(input[type=submit]):hover{
@@ -70,9 +66,12 @@ input:not(input[type=submit]),textarea{
 }
 .fm:not(input[type=submit]){
   border: .1vh dashed #999;
+  width: 25vw;
+  padding: 0 1vw;
 }
 textarea{
-  padding: 2vh 1vw;
+  padding: 2vh 2vw;
+  width: 25vw;
 }
 input[type=submit]{
   width: 8vw;
@@ -101,7 +100,7 @@ input[type=submit]:hover{
   input[type=submit]{
     min-width: 20vw;
   }
-input:not([type=submit]),textarea{
+input:not([type=submit]), textarea{
   min-width: 80vw;
 }
 }
