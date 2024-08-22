@@ -57,7 +57,7 @@ form{
   font-size: 1em;
   border-radius: 1vh;
 }
-input:not(textarea){
+input{
   height: 5vh;
 }
 input:not(input[type=submit]),textarea{
